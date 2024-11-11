@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contoh Kode C++</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        pre {
+            background-color: #eee;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Contoh Kode C++</h1>
+
+    <h2>Pertama: Array Kosong dan Pengisian Data</h2>
+    <pre>#include &lt;iostream&gt;
+
+using namespace std;
+
+int main() {
+    // membuat array kosong
+    int nilai[5];
+
+    // mengisi array
+    nilai[0] = 32;
+    nilai[1] = 42;
+    nilai[2] = 76;
+    nilai[3] = 31;
+    nilai[4] = 57;
+
+    // mencetak isi array
+    cout << "Nilai ke-1: " << nilai[0] << endl;
+    cout << "Nilai ke-2: " << nilai[1] << endl;
+    cout << "Nilai ke-3: " << nilai[2] << endl;
+    cout << "Nilai ke-4: " << nilai[3] << endl;
+    cout << "Nilai ke-5: " << nilai[4] << endl;
+
+    return 0;
+}</pre>
+
+    <h2>Kedua: Mengubah dan Menampilkan Array Karakter</h2>
+    <pre>#include &lt;iostream&gt;
+
+using namespace std;
+
+int main() {
+    // isi awal array
+    char huruf[5] = {'a', 'b', 'c', 'd', 'e'};
+
+    // mengubah isi data array
+    huruf[2] = 'z';
+
+    // mencetak isi array
+    cout << "Huruf: " << huruf[2] << endl;
+
+    return 0;
+}</pre>
+
+    <h2>Ketiga: Menampilkan Huruf dari Array</h2>
+    <pre>#include &lt;iostream&gt;
+
+using namespace std;
+
+int main() {
+    char huruf[5] = {'a', 'b', 'c', 'd', 'e'};
+
+    // mengambil data pada array
+    cout << "Huruf: " << huruf[2] << endl;
+
+    return 0;
+}</pre>
+
+    <h2>Keempat: Array dengan Kesalahan Sintaksis</h2>
+    <pre>#include &lt;iostream&gt;
+
+using namespace std;
+
+int main() {
+    // membuat array kosong
+    int nilai[5];
+
+    // mengisi array
+    nilai[0] = 32;
+    nilai[1] = 42;
+    nilai[2] = 76;
+    nilai[3] = 31;
+    nilai[4] = 57;
+
+    // mencetak isi array
+    cout << "Nilai ke-1: " << nilai[0] << endl;
+    cout << "Nilai ke-2: " << nilai[1] << endl;
+    cout << "Nilai ke-3: " << nilai[2] << endl;
+    cout << "Nilai ke-4: " << nilai[3] << endl;
+    cout << "Nilai ke-5: " << nilai[4] << endl;
+
+    return 0;
+}</pre>
+
+    <h2>Kelima: Array dengan Perulangan For</h2>
+    <pre>#include &lt;iostream&gt;
+
+using namespace std;
+
+int main() {
+    // membuat array kosong
+    int nilai[5];
+
+    // mengisi array
+    nilai[0] = 32;
+    nilai[1] = 42;
+    nilai[2] = 76;
+    nilai[3] = 31;
+    nilai[4] = 57;
+
+    // mencetak isi array dengan perulangan
+    for(int i = 0; i < 5; i++) {
+        printf("Nilai ke-%d: %d\n", i+1, nilai[i]);
+    }
+
+    return 0;
+}</pre>
+
+    <h2>Keenam: Online C++ Compiler</h2>
+    <pre>#include &lt;iostream&gt;
+
+using namespace std;
+
+int main() {
+    char huruf[5] = {'a', 'b', 'c', 'd', 'e'};
+
+    // mengubah isi data array
+    huruf[2] = 'z';
+
+    cout << "Huruf: " << huruf[2] << endl;
+
+    return 0;
+}</pre>
+</body>
+
+</html>
